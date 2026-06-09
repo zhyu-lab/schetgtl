@@ -1,0 +1,36 @@
+# Downloaded datasets
+data/**
+
+# Training and preprocessing outputs
+results/
+outputs/
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5ad
+*.mtx
+
+# Generated intermediate files
+temp_*.csv
+run_comparison.R
+conversion_summary.json
+gene_activity_*.csv
+peaks_used.csv
+genes_used.csv
+peak_gene_overlap_summary.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

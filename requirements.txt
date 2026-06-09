@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://data.pyg.org/whl/torch-2.5.0+cu121.html
+anndata
+h5py
+ipykernel
+jupyterlab
+numpy
+pandas
+scanpy
+scikit-learn
+scipy
+torch==2.5.1+cu121
+torch-geometric==2.6.1
+pyg_lib==0.4.0+pt25cu121
+torch_scatter==2.1.2+pt25cu121
+torch_sparse==0.6.18+pt25cu121
